@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Fitness-app",
-    "slug": "Fitness-app",
+    "slug": "fitness-trial-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,19 +12,27 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.janhunar.Fitnessapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.janhunar.Fitnessapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6402f246-c126-41bb-b8f3-84721c25b13b"
+      }
+    },
+    "owner": "janhunar"
   }
 }
